@@ -72,11 +72,11 @@
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/hakichris)
 
-👤 **Victor**
+👤 **Victor Kanyi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/jkanyi-web)
+- Twitter: [@twitterhandle](https://twitter.com/jkanyi757)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/kanyi-kanyi-6668aa188/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
