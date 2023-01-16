@@ -1,0 +1,18 @@
+/* .addnewbook {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+} */
+
+li {
+    list-style-type: none;
+}
+
+.title {
+    margin: 0;
+}
+
+#book-list {
+    padding: 0;
+}
