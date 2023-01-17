@@ -25,9 +25,8 @@ hr {
   gap: 10px;
 }
 
-.input-form button {
+button .input-form  {
   align-self: flex-end;
-  width: 20%;
 }
 
 button,
