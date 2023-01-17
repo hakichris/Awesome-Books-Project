@@ -77,27 +77,3 @@ window.onload = () => {
 
   library.data.forEach((book) => addToUI(book));
 };
-
-// function getInput() {
-//   const book = {};
-//   book.id = Date.now();
-//   book.title = document.getElementById('bookTitle').value;
-//   book.author = document.getElementById('bookAuthor').value;
-//   return book;
-// }
-
-// function addBook(bookObj) {
-//   const bookList = document.getElementById('book-list');
-//   const book = document.createElement('li');
-//   const line = document.createElement('hr');
-//   book.setAttribute('id', bookObj.id);
-//   book.innerHTML = `<h2 class="title"> ${bookObj.title} </h2> <h3>${bookObj.author} </h3>`;
-//   const deleteBtn = document.createElement('button');
-//   deleteBtn.innerHTML = 'Remove';
-//   deleteBtn.addEventListener('click', () => removeBook(bookObj.id));
-//   book.appendChild(deleteBtn);
-//   book.appendChild(line);
-//   bookList.appendChild(book);
-// }
-
-// Add Button
