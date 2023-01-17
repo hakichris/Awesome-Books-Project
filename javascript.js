@@ -1,6 +1,7 @@
-eslint-disable; max-classes-per-file 
-eslint-disable; no-use-before-define 
-
+eslint - disable;
+max - classes - per - file;
+eslint - disable;
+no - use - before - define;
 
 class Book {
   constructor(title, author) {
