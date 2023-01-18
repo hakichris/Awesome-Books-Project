@@ -76,7 +76,7 @@ window.onload = () => {
   library.data.forEach((book) => addToUI(book));
 };
 
-//eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars
 function displaySection(section) {
   const sectionList = document.getElementById('displaybook');
   const sectionForm = document.getElementById('form');
