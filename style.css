@@ -3,8 +3,48 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-li {
-  list-style: none;
+.centered {
+  margin-top: 25%;
+  margin-bottom: 25%;
+}
+
+.header {
+  border: 3px solid #000;
+  border-radius: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  border: 3px solid #000;
+  border-radius: 8px;
+  width: 125px;
+  margin-top: 15%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+p,
+h3,
+.header-title {
+  margin-left: 5px;
+}
+
+.stay {
+  text-align: center;
+}
+
+.nav-list {
+  margin-right: 5px;
+  display: flex;
+  gap: 20px;
 }
 
 hr {
@@ -67,4 +107,22 @@ button,
 
 #form {
   margin-top: 20px;
+}
+
+.contact,
+.reachout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.displaybook,
+.form,
+.contact {
+  display: none;
+}
+
+li {
+  list-style-type: none;
 }

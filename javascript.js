@@ -75,3 +75,37 @@ window.onload = () => {
 
   library.data.forEach((book) => addToUI(book));
 };
+
+// eslint-disable-next-line no-unused-vars
+function displaySection(section) {
+  const sectionList = document.getElementById('displaybook');
+  const sectionForm = document.getElementById('form');
+  const sectionContact = document.getElementById('contact');
+  const stayword = document.querySelector('.stay');
+
+  switch (section) {
+    case 'displaybook':
+      sectionList.style.display = 'block';
+      sectionForm.style.display = 'none';
+      sectionContact.style.display = 'none';
+      stayword.style.display = 'none';
+      break;
+
+    case 'form':
+      sectionList.style.display = 'none';
+      sectionForm.style.display = 'block';
+      sectionContact.style.display = 'none';
+      stayword.style.display = 'none';
+      break;
+
+    case 'contact':
+      sectionList.style.display = 'none';
+      sectionForm.style.display = 'none';
+      sectionContact.style.display = 'block';
+      stayword.style.display = 'none';
+      break;
+
+    default:
+      break;
+  }
+}
